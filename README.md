@@ -13,9 +13,6 @@ Implementing a custom assembler and simulator for the given Instruction Set Arch
 * Scatter Plot
 
 
-
-## Instructions to run the Assembler and Simulator
-
 ## Contents of the Repo
 
 * [Assembler](https://github.com/abhit-rana/Toucan/tree/main/Assembler): Contans the code for the Assembler: ToucanAssembler.java
@@ -23,3 +20,6 @@ Implementing a custom assembler and simulator for the given Instruction Set Arch
 * automateTesting
 * [ISA-DESCRIPTION](https://github.com/abhit-rana/Toucan/blob/main/ISA-DESCRIPTION.pdf): Information regarding the Instruction Set Architecture(ISA) used in the Assembler and Simulator
 * [Project_Components_Description](https://github.com/abhit-rana/Toucan/blob/main/Porject_Components_Description.pdf): Information regarding the working of the Assembler, Simulator, and Scatter Plot.
+
+## Instructions to run the Assembler and Simulator
+
