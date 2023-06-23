@@ -54,7 +54,6 @@ Hurray, we are all set up!!
 ## Running the Assembler
 
 **INPUT - INSTRUCTIONS TO THE COMPUTER IN THE FORM OF ASSEMBLY LANGUAGE
-
 OUTPUT - INSTRUCTIONS IN THE FORM OF BITS**
 
 ```
@@ -71,7 +70,6 @@ The Output file of the test case would be inside "Assembler/TestCasesGeneratedOu
 ## Running the Simulator
 
 **INPUT - INSTRUCTIONS TO THE COMPUTER IN THE FORM OF BITS
-
 OUTPUT - VALUE OF PROGRAM COUNTER, REGISTERS, AND FLAGS AFTER EXECUTING EACH INSTRUCTION**
 
 
