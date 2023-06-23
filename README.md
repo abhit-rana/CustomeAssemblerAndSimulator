@@ -60,9 +60,10 @@ INPUT - INSTRUCTIONS IN THE FORM OF ASSEMBLY LANGUAGE
 
 OUTPUT - INSTRUCTIONS IN THE FORM OF BITS
 
-```
+**FORMAT:**
+
 python3 runAssembler.py assembler_test_file_name assembler_solution_file_name
-```
+
 
 **Example:**
 ```
@@ -83,9 +84,10 @@ INPUT - INSTRUCTIONS IN THE FORM OF BITS
 OUTPUT - VALUE OF PROGRAM COUNTER, REGISTERS, AND FLAGS AFTER EXECUTING EACH INSTRUCTION
 
 
-```
+**FORMAT:**
+
 python3 runSimulator.py simulator_test_file_name simulator_solution_file_name
-```
+
 
 **Example:**
 ```
@@ -105,9 +107,10 @@ INPUT - INSTRUCTIONS IN THE FORM OF ASSEMBLY LANGUAGE
 
 OUTPUT - VALUE OF PROGRAM COUNTER, REGISTERS, AND FLAGS AFTER EXECUTING EACH INSTRUCTION
 
-```
+**FORMAT:**
+
 python3 runToucan.py toucan_test_file_name=assembler_test_file_name assembler_solution_file_name toucan_solution_file_name=simulator_solution_file_name
-```
+
 
 **Example:**
 ```
