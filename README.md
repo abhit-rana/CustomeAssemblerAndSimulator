@@ -58,7 +58,7 @@ INPUT - INSTRUCTIONS IN THE FORM OF ASSEMBLY LANGUAGE
 OUTPUT - INSTRUCTIONS IN THE FORM OF BITS
 
 ```
-python3 runAssembler.py test_file_name solution_file_name
+python3 runAssembler.py assembler_test_file_name assembler_solution_file_name
 ```
 
 **Note:**
@@ -76,7 +76,7 @@ OUTPUT - VALUE OF PROGRAM COUNTER, REGISTERS, AND FLAGS AFTER EXECUTING EACH INS
 
 
 ```
-python3 runSimulator.py test_file_name solution_file_name
+python3 runSimulator.py simulator_test_file_name simulator_solution_file_name
 ```
 
 **Note:**
