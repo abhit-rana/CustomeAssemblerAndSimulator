@@ -1,6 +1,6 @@
 ## Introduction
 
-Implemented a custom [Assembler](https://www.techtarget.com/searchdatacenter/definition/assembler#:~:text=An%20assembler%20is%20a%20program,use%20the%20term%20assembly%20language.)(a computer program that takes basic computer instructions and converts them into a pattern of bits) and [Simulator](https://www.dictionary.com/browse/simulator)(any device or system that simulates specific conditions or the characteristics of a real process or machine. Here, the Simulator would imitate the working of the Computer System by showing the execution of Instructions or bits given to the computer.) for the Instruction Set Architecture(ISA). A Scatter Plot is also plotted with the cycle number on the x-axis and the memory address on the y-axis, depicting which memory address is accessed at what time while Simulator executes the Instructions.
+Implemented a custom [Assembler](https://www.techtarget.com/searchdatacenter/definition/assembler#:~:text=An%20assembler%20is%20a%20program,use%20the%20term%20assembly%20language.)(a computer program that takes basic computer instructions and converts them into a pattern of bits) and [Simulator](https://www.dictionary.com/browse/simulator)(any device or system that simulates specific conditions or the characteristics of a real process or machine. Here, the Simulator would imitate the working of the Computer System by showing the execution of Instructions in terms of bits given to the computer.) for the Instruction Set Architecture(ISA). A Scatter Plot is also plotted with the cycle number on the x-axis and the memory address on the y-axis, depicting which memory address is accessed at what time while Simulator executes the Instructions.
 
 ## Demo
 
@@ -65,4 +65,4 @@ The Output file of the test case would be inside Assembler/TestCasesGeneratedOut
 
 ## Running the Simulator
 
-**Since the Simulator would imitate the working of the Computer. So, to show whether the Instructions given to the computer are being executed or not, the output of the Simulator would be the Program Counter, Values of 8 Registers, and Flags after executing each instruction.**
+**Since the Simulator would imitate the working of the Computer. So, to show whether the Instructions in terms of bits given to the Computer are being executed or not, the output of the Simulator would be the Program Counter, Values of 8 Registers, and Flags after executing each instruction.**
