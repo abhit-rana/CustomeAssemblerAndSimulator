@@ -56,7 +56,7 @@ Hurray, we are all set up!!
 python3 runAssembler.py test_file_name solution_file_name
 ```
 
-**Note: **
+**Note:**
 
 * If you don't have the solution file, leave the solution_file_name argument empty.
 * **Add the new test cases and their solution to the assigned folders, TestCases, and TestCasesSolutions, inside the Assembler Directory**.
