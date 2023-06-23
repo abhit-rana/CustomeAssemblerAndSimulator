@@ -73,9 +73,9 @@ python3 runSimulator.py at4 sat4
 **Note:**
 
 * If you don't have the solution file, leave the assembler_solution_file_name argument empty.
-* **Add the new test cases and their solution to the assigned folders, TestCases, and TestCasesSolutions, inside the Assembler Directory**.
+* **Add the new test cases and their solution to the assigned folders, TestCases/Assembler and TestCasesSolutions/Assembler, respectively**.
 
-The Output file of the test case would be inside "Assembler/TestCasesGeneratedOutput/" with the same name as the test file. If the Solution file were provided, the result of whether the output file matched the solution file would be provided in the output.
+The Output file of the test case would be inside "TestCasesGeneratedOutput/Assembler/" with the same name as the test file. If the Solution file were provided, the result of whether the output file matched the solution file would be provided in the output.
 
 ## Running the Simulator
 
@@ -97,11 +97,11 @@ python3 runSimulator.py st5 sst5
 **Note:**
 
 * If you don't have the solution file, leave the simulator_solution_file_name argument empty.
-* **Add the new test cases and their solution to the assigned folders, TestCases, and TestCasesSolutions, inside the Simulator Directory**.
+* **Add the new test cases and their solution to the assigned folders, TestCases/Simulator and TestCasesSolutions/Simulator, respectively**.
 
-The Output file of the test case would be inside "Simulator/TestCasesGeneratedOutput/" with the same name as the test file. If the Solution file were provided, the result of whether the output file matched the solution file would be provided in the output.
+The Output file of the test case would be inside "TestCasesGeneratedOutput/Simulator/" with the same name as the test file. If the Solution file were provided, the result of whether the output file matched the solution file would be provided in the output.
 
-## Running the Entire System
+## Running the Entire System: Toucan
 
 INPUT - INSTRUCTIONS IN THE FORM OF ASSEMBLY LANGUAGE
 
@@ -116,3 +116,10 @@ python3 runToucan.py toucan_test_file_name=assembler_test_file_name assembler_so
 ```
 python3 runToucan.py at5 sat5 sst5
 ```
+
+**Note:**
+
+* If you don't have the solution fileS, leave the assembler_solution_file_name and simulator_solution_file_name argument empty.
+* **Add the new test cases and their solution to the assigned folders, TestCases/Assembler, TestCasesSolutions/Assembler, and TestCasesSolutions/Simulator, respectively**.
+
+For the given test case, the output file from Assembler would be inside "TestCasesGeneratedOutput/Assembler" with the letter 's' appended to the name of the test file that would be input to the Simulator. The output from the Simulator would be inside "TestCasesGeneratedOutput/Simulator/" with the word "sst" followed by the digit(i.e., 1, 2, or 3) that would be the output from the Toucan system. 
