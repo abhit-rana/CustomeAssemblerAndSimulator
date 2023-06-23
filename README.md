@@ -71,6 +71,7 @@ The Output file of the test case would be inside "Assembler/TestCasesGeneratedOu
 ## Running the Simulator
 
 INPUT - INSTRUCTIONS TO THE COMPUTER IN THE FORM OF BITS
+
 OUTPUT - VALUE OF PROGRAM COUNTER, REGISTERS, AND FLAGS AFTER EXECUTING EACH INSTRUCTION
 
 
@@ -83,4 +84,4 @@ python3 runSimulator.py test_file_name solution_file_name
 * If you don't have the solution file, leave the solution_file_name argument empty.
 * **Add the new test cases and their solution to the assigned folders, TestCases, and TestCasesSolutions, inside the Simulator Directory**.
 
-The Output file of the test case would be inside "Assembler/TestCasesGeneratedOutput/" with the same name as the test file. If the Solution file were provided, the result of whether the output file matched the solution file would be provided in the output.
+The Output file of the test case would be inside "Simulator/TestCasesGeneratedOutput/" with the same name as the test file. If the Solution file were provided, the result of whether the output file matched the solution file would be provided in the output.
