@@ -17,7 +17,6 @@ Implemented a custom assembler and simulator for the Instruction Set Architectur
 
 * [Assembler](https://github.com/abhit-rana/Toucan/tree/main/Assembler): Contains the code for the Assembler: ToucanAssembler.java
 * [Simulator](https://github.com/abhit-rana/Toucan/tree/main/Assembler): Contains the code for the Simulator: ToucanSimulator.java and for plotting the scatter plot: makeGraph.py
-* automateTesting
 * [ISA-DESCRIPTION](https://github.com/abhit-rana/Toucan/blob/main/ISA-DESCRIPTION.pdf): Information regarding the Instruction Set Architecture(ISA) used in the Assembler and Simulator
 * [Project_Components_Description](https://github.com/abhit-rana/Toucan/blob/main/Porject_Components_Description.pdf): Information regarding the working of the Assembler, Simulator, and Scatter Plot.
 
@@ -51,3 +50,17 @@ pip3 install -r requirements.txt
 ```
 
 Hurray, we are all set up!!
+
+## Running the Assembler
+```
+python3 runAssembler.py test_file_name solution_file_name
+```
+
+**Note: **
+
+* If you don't have the solution file, leave the solution_file_name argument empty.
+* **Add the new test cases and their solution to the assigned folders, TestCases, and TestCasesSolutions, inside the Assembler Directory**.
+
+The Output file of the test case would be inside Assembler/TestCasesGeneratedOutput with the same name as the test file. If the Solution file were provided, the result of whether the output file matched the solution file would be provided in the output.
+
+## Running the Simulator
