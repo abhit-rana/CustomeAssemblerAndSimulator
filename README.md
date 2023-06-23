@@ -64,9 +64,14 @@ OUTPUT - INSTRUCTIONS IN THE FORM OF BITS
 python3 runAssembler.py assembler_test_file_name assembler_solution_file_name
 ```
 
+**Example:**
+```
+python3 runSimulator.py at4 sat4
+```
+
 **Note:**
 
-* If you don't have the solution file, leave the solution_file_name argument empty.
+* If you don't have the solution file, leave the assembler_solution_file_name argument empty.
 * **Add the new test cases and their solution to the assigned folders, TestCases, and TestCasesSolutions, inside the Assembler Directory**.
 
 The Output file of the test case would be inside "Assembler/TestCasesGeneratedOutput/" with the same name as the test file. If the Solution file were provided, the result of whether the output file matched the solution file would be provided in the output.
@@ -82,9 +87,29 @@ OUTPUT - VALUE OF PROGRAM COUNTER, REGISTERS, AND FLAGS AFTER EXECUTING EACH INS
 python3 runSimulator.py simulator_test_file_name simulator_solution_file_name
 ```
 
+**Example:**
+```
+python3 runSimulator.py st5 sst5
+```
+
 **Note:**
 
-* If you don't have the solution file, leave the solution_file_name argument empty.
+* If you don't have the solution file, leave the simulator_solution_file_name argument empty.
 * **Add the new test cases and their solution to the assigned folders, TestCases, and TestCasesSolutions, inside the Simulator Directory**.
 
 The Output file of the test case would be inside "Simulator/TestCasesGeneratedOutput/" with the same name as the test file. If the Solution file were provided, the result of whether the output file matched the solution file would be provided in the output.
+
+## Running the Entire System
+
+INPUT - INSTRUCTIONS IN THE FORM OF ASSEMBLY LANGUAGE
+
+OUTPUT - VALUE OF PROGRAM COUNTER, REGISTERS, AND FLAGS AFTER EXECUTING EACH INSTRUCTION
+
+```
+python3 runToucan.py toucan_test_file_name=assembler_test_file_name assembler_solution_file_name toucan_solution_file_name=simulator_solution_file_name
+```
+
+**Example:**
+```
+python3 runToucan.py at5 sat5 sst5
+```
