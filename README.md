@@ -1,6 +1,6 @@
 ## Introduction
 
-Implemented a custom assembler and simulator for the Instruction Set Architecture(ISA). A Scatter Plot is also plotted with the cycle number on the x-axis and the memory address on the y-axis depicting which memory address is accessed at what time.
+Implemented a custom [Assembler](https://www.techtarget.com/searchdatacenter/definition/assembler#:~:text=An%20assembler%20is%20a%20program,use%20the%20term%20assembly%20language.)(a computer program that takes basic computer instructions and converts them into a pattern of bits) and [Simulator](https://www.google.com/search?q=what+is+an+Simulator&rlz=1C1GCEU_enIN969IN969&ei=4zeVZPDSAs2KhwP_2ouACw&ved=0ahUKEwiw0JCg3tj_AhVNxWEKHX_tArAQ4dUDCA8&uact=5&oq=what+is+an+Simulator&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoFCAAQgAQ6CAgAEIoFEJECSgQIQRgAUK8CWM0MYMoNaAFwAXgAgAGPAogB0AySAQUwLjEuNpgBAKABAcABAcgBCg&sclient=gws-wiz-serp)(a program enabling a computer to execute programs written for a different operating system) for the Instruction Set Architecture(ISA). A Scatter Plot is also plotted with the cycle number on the x-axis and the memory address on the y-axis depicting which memory address is accessed at what time.
 
 ## Demo
 
