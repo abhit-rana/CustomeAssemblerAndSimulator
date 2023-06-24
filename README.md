@@ -67,7 +67,7 @@ python3 runAssembler.py assembler_test_file_name assembler_solution_file_name
 
 **Example:**
 ```
-python3 runSimulator.py at4 sat4
+python3 runAssembler.py at4 sat4
 ```
 
 **Note:**
