@@ -10,7 +10,7 @@ Implemented a system that takes input as Instructions in the form of Assembly La
 
 * Assembler
 
-https://github.com/abhit-rana/Toucan/assets/88608893/caad707f-73e4-46b9-9f44-14b1c6f13f55
+https://github.com/abhit-rana/Toucan/assets/88608893/ec98de1e-50e4-4c7f-8fde-23887dc5e6ef
 
 * Simulator and Scatter Plot
 
@@ -24,8 +24,14 @@ https://github.com/abhit-rana/Toucan/assets/88608893/eefc894b-0136-4a96-8059-f7f
 
 * [Assembler](https://github.com/abhit-rana/Toucan/tree/main/Assembler): Contains the code for the Assembler: ToucanAssembler.java
 * [Simulator](https://github.com/abhit-rana/Toucan/tree/main/Assembler): Contains the code for the Simulator: ToucanSimulator.java and for plotting the scatter plot: makeGraph.py
+* [TestCases](https://github.com/abhit-rana/Toucan/tree/main/TestCases): Contains the test cases for the Assembler and Simulator.
+* [TestCasesGeneratedOutput](https://github.com/abhit-rana/Toucan/tree/main/TestCasesGeneratedOutput): This directory would contain the output files from the Assembler and Simulator.
+* [TestCasesSolutions](https://github.com/abhit-rana/Toucan/tree/main/TestCasesSolutions): It contains the solutions for the test cases listed in [TestCases](https://github.com/abhit-rana/Toucan/tree/main/TestCases) directory.
 * [ISA-DESCRIPTION](https://github.com/abhit-rana/Toucan/blob/main/ISA-DESCRIPTION.pdf): Information regarding the Instruction Set Architecture(ISA) used in the Assembler and Simulator
 * [Project_Components_Description](https://github.com/abhit-rana/Toucan/blob/main/Porject_Components_Description.pdf): Information regarding the working of the Assembler, Simulator, and Scatter Plot.
+* [runAssembler.py](https://github.com/abhit-rana/Toucan/blob/main/runAssembler.py): Run the Assembler.
+* [runSimulator.py](https://github.com/abhit-rana/Toucan/blob/main/runSimulator.py): Run the Simulator.
+* [runToucan.py](https://github.com/abhit-rana/Toucan/blob/main/runToucan.py): Run the Entire System: Toucan.
 
 ## Installing the System
 
