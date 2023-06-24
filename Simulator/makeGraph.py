@@ -11,9 +11,10 @@ def printGraph():
         y.append(int(str[i]))
         x.append(i)
     plt.scatter(x,y) 
+    # print("w2")
     plt.xlabel("Cycle Number")
     plt.ylabel("Memory Address")
     plt.title("Memory address v/s Cycle Number plot")
-    plt.savefig("Plot.png", bbox = "tight")
+    plt.savefig("Plot.png")
 
 printGraph()

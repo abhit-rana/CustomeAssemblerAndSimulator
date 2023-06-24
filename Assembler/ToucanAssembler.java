@@ -4,7 +4,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Toucan
+public class ToucanAssembler
 {
 	static int count_arr;
 	static String arr_binary[] = new String[256];

@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Add command to run your program here
-java Toucan
+java ToucanAssembler

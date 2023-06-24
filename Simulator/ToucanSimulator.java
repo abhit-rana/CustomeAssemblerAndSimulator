@@ -29,6 +29,8 @@ public class ToucanSimulator {
 		// System.out.println(pc.geTstring_pc());
 		// sc.nextLine();
 		String temp = pc.geTstring_pc();
+		// System.out.println("$$$$$$$$$$$$$$$$$$$$$");
+		// System.out.println(temp);
 		printGraph(temp);
 	}
 
@@ -43,6 +45,7 @@ public class ToucanSimulator {
 			BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
 			BufferedReader reader_error = new BufferedReader(new InputStreamReader(process.getInputStream()));
 			String lines = null;
+			// System.out.println("w1");
 			// System.out.println("in3");
 			while((lines=reader.readLine())!=null){
 				// System.out.println("in2");
