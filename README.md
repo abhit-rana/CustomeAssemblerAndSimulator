@@ -67,7 +67,7 @@ python3 runAssembler.py assembler_test_file_name assembler_solution_file_name
 
 **Example:**
 ```
-python3 runAssembler.py at4 sat4
+python3 runAssembler.py at2 sat2
 ```
 
 **Note:**
@@ -91,7 +91,7 @@ python3 runSimulator.py simulator_test_file_name simulator_solution_file_name
 
 **Example:**
 ```
-python3 runSimulator.py st5 sst5
+python3 runSimulator.py st2 sst2
 ```
 
 **Note:**
@@ -114,7 +114,7 @@ python3 runToucan.py toucan_test_file_name=assembler_test_file_name assembler_so
 
 **Example:**
 ```
-python3 runToucan.py at5 sat5 sst5
+python3 runToucan.py at2 sat2 sst2
 ```
 
 **Note:**
