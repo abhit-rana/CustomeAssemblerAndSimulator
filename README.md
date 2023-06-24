@@ -14,6 +14,8 @@ Implemented a system that takes input as Instructions in the form of Assembly La
 * Simulator and Scatter Plot
 
 
+* Entire System: Toucan
+
 
 
 ## Contents of the Repo
