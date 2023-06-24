@@ -14,7 +14,7 @@ https://github.com/abhit-rana/Toucan/assets/88608893/caad707f-73e4-46b9-9f44-14b
 
 * Simulator and Scatter Plot
 
-Uploading Simulator.mp4…
+https://github.com/abhit-rana/Toucan/assets/88608893/d45bbf1e-ea05-490d-8f99-609e964d518f
 
 * Entire System: Toucan
 
