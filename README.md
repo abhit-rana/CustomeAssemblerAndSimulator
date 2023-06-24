@@ -1,6 +1,6 @@
 ## Introduction
 
-Implemented a system that takes input as Instructions in the form of Assembly Language and then outputs the values of the components(Registers and Flags) used in the execution of Instructions inside the Processor based on the Custom Instruction Set Architecture(ISA). The system consists of [Assembler](https://www.techtarget.com/searchdatacenter/definition/assembler#:~:text=An%20assembler%20is%20a%20program,use%20the%20term%20assembly%20language.)(a computer program that takes basic computer instructions as input and converts them into a pattern of bits as output) and [Simulator](https://www.dictionary.com/browse/simulator)(a computer program that simulates specific conditions or the characteristics of a real process or machine. Here, the Simulator would imitate the working of the Computer System by taking input as instructions as bits and outputting the state of Registers and Flags). A Scatter Plot is also plotted along with Simulator output depicting which memory address is accessed at what time while Simulator executes the Instructions.
+Implemented a system that takes input as Instructions in the form of Assembly Language and then outputs the values of the components(Registers and Flags) used in the execution of Instructions inside the Processor based on the Custom Instruction Set Architecture(ISA). The system consists of [Assembler](https://www.techtarget.com/searchdatacenter/definition/assembler#:~:text=An%20assembler%20is%20a%20program,use%20the%20term%20assembly%20language.)(a computer program that takes basic computer instructions as input and converts them into binary system as output) and [Simulator](https://www.dictionary.com/browse/simulator)(a computer program that simulates specific conditions or the characteristics of a real process or machine. Here, the Simulator would imitate the working of the Computer System by taking input as instructions as bits and outputting the state of Registers and Flags). A Scatter Plot is also plotted along with Simulator output depicting which memory address is accessed at what time while Simulator executes the Instructions.
 
 ## Flow Diagram
 
@@ -65,9 +65,9 @@ Hurray, we are all set up!!
 
 ## Running the Assembler
 
-INPUT - INSTRUCTIONS IN THE FORM OF ASSEMBLY LANGUAGE
+INPUT - INSTRUCTIONS IN ASSEMBLY LANGUAGE
 
-OUTPUT - INSTRUCTIONS IN THE FORM OF BITS
+OUTPUT - INSTRUCTIONS IN BINARY SYSTEM
 
 **FORMAT:**
 
@@ -88,7 +88,7 @@ The Output file of the test case would be inside "TestCasesGeneratedOutput/Assem
 
 ## Running the Simulator
 
-INPUT - INSTRUCTIONS IN THE FORM OF BITS
+INPUT - INSTRUCTIONS IN BINARY SYSTEM
 
 OUTPUT - VALUE OF PROGRAM COUNTER, REGISTERS, AND FLAGS AFTER EXECUTING EACH INSTRUCTION. SCATTER PLOT FILE.
 
