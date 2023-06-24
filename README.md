@@ -39,7 +39,7 @@ virtualenv Toucan
 
 **4. Making the files inside Toucan to be executable**
 ```
-chmod -R 701 Toucan
+chmod -R 701 Toucan/
 ```
 
 **5. Opening up the Repo**
