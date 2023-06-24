@@ -10,13 +10,15 @@ Implemented a system that takes input as Instructions in the form of Assembly La
 
 * Assembler
 
+https://github.com/abhit-rana/Toucan/assets/88608893/caad707f-73e4-46b9-9f44-14b1c6f13f55
 
 * Simulator and Scatter Plot
 
+https://github.com/abhit-rana/Toucan/assets/88608893/45d6d74f-6fc7-4bea-a862-e5b1cc0f7ac8
 
 * Entire System: Toucan
 
-
+https://github.com/abhit-rana/Toucan/assets/88608893/f7c82c7a-32a0-4179-9afd-701f4969ba9c
 
 ## Contents of the Repo
 
