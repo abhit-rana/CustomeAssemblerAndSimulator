@@ -25,29 +25,34 @@ Implemented a system that takes input as Instructions in the form of Assembly La
 
 ## Installing the System
 
-1. Downloading the Repo
+**1. Downloading the Repo**
 
 * Go to the Homepage of this Repo. Download the ZIP FILE from the "<> Code" button there.
 * Extract the ZIP file where you want
 * Rename the Downloaded folder(Toucan-main) to be - Toucan
 
-2. Setting up a virtual environment
+**2. Setting up a virtual environment**
 ```
 pip3 install virtualenv
-virtualenv DaargiBot
+virtualenv Toucan
 ```
 
-**3. Opening up the Repo**
+**4. Making the files inside Toucan to be executable**
+```
+chmod -R 701 Toucan
+```
+
+**5. Opening up the Repo**
 ```
 cd DaargiBot
 ```
 
-**4. Activating Virtual Environment**
+**6. Activating Virtual Environment**
 ```
 source bin/activate
 ```
 
-**5. Downloading the Required Python Packages**
+**7. Downloading the Required Python Packages**
 ```
 pip3 install -r requirements.txt
 ```
